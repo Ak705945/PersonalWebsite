@@ -1,0 +1,32 @@
+.heading {
+  margin: 10% 9% 0 9%;
+  text-align: left;
+  font-size: 6rem;
+}
+
+/* Certifications */
+.card {
+  text-align: left;
+  border-radius: 15px;
+  background-color: #11ffee00;
+  padding: 3%;
+  margin: 15px;
+  box-shadow: 5px 5px 6px 0px rgb(0 0 0 / 20%), 2px 3px 2px 0px rgb(0 0 0 / 19%);
+}
+
+.card:hover {
+  box-shadow: 8px 9px 15px 12px rgb(0 0 0 / 20%), 6px 6px 8px 2px rgb(0 0 0 / 19%);
+}
+
+.card h1 {
+  margin-bottom: 1%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width:630px) {
+  .heading {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 4rem;
+  }
+}

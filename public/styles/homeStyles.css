@@ -1,0 +1,77 @@
+/* Title Section */
+.heading {
+  font-family: 'Pacifico', cursive;
+  text-align: right;
+  padding: 10% 10% 7%;
+}
+
+.heading h1 {
+  font-size: 10rem;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.heading h2 {
+  padding-top: 25px;
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* About section */
+.aboutMe h1 {
+  margin: 0 7% 5%;
+}
+
+.aboutMe p {
+  margin: 0 7% 7% 7%;
+}
+
+/* skills */
+.carousel-item p {
+  padding: 5% 0;
+  color: var(--text3);
+}
+
+.card {
+  display: inline-block;
+  background-color: var(--text);
+  color: var(--background);
+  width: 70%;
+  border-radius: 20px;
+  box-shadow: 7px 7px 8px 4px rgb(0 0 0 / 20%), 5px 6px 20px 4px rgb(0 0 0 / 19%);
+  margin: 25px;
+  padding: 4% 4%;
+}
+
+.card h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* For mobile Screen */
+@media (max-width:991px) {
+  .heading {
+    text-align: center;
+  }
+
+  .heading h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width:630px) {
+  .heading {
+    margin-top: 97px;
+  }
+
+  .carousel-item p {
+    font-size: 0.99rem;
+  }
+
+  .card {
+    width: 77%;
+  }
+}

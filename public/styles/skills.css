@@ -1,0 +1,38 @@
+.heading {
+  margin: 10% 9% 0 9%;
+  text-align: left;
+  font-size: 6rem;
+}
+
+.skills {
+  margin: 5% 9% 0 9%;
+}
+
+.card {
+  background-color: transparent;
+  border-width: 0;
+}
+
+.skills li {
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 6% 0 6% 0;
+  font-weight: bold;
+}
+
+img{
+  width: 85%;
+}
+.coloumns{
+  margin: 30px 0;
+}
+@media (max-width:630px) {
+  .heading {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 4rem;
+  }
+  .coloumns{
+    margin: 30px;
+  }
+}
