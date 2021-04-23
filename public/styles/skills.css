@@ -1,11 +1,11 @@
 .heading {
-  margin: 10% 9% 0 9%;
+  margin: 10% 9% 0;
   text-align: left;
   font-size: 6rem;
 }
 
 .skills {
-  margin: 5% 9% 0 9%;
+  margin: 5% 9% 0;
 }
 
 .card {
@@ -16,7 +16,7 @@
 .skills li {
   font-size: 1.5rem;
   text-align: left;
-  margin: 6% 0 6% 0;
+  margin: 6% 0;
   font-weight: bold;
 }
 

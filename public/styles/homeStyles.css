@@ -27,7 +27,7 @@ p {
 }
 
 .aboutMe p {
-  margin: 0 7% 7% 7%;
+  margin: 0 7% 7%;
 }
 
 /* skills */
@@ -44,7 +44,7 @@ p {
   border-radius: 20px;
   box-shadow: 7px 7px 8px 4px rgb(0 0 0 / 20%), 5px 6px 20px 4px rgb(0 0 0 / 19%);
   margin: 25px;
-  padding: 4% 4%;
+  padding: 4%;
 }
 
 .card h1 {

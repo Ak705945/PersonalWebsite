@@ -22,7 +22,7 @@ button {
   background: var(--text);
   color: var(--text3);
   margin: 5px;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 30px;
 }
 
 button:hover {
@@ -58,7 +58,7 @@ h1 {
   font-weight: bold;
 }
 .row {
-  margin: 5% 7% 7% 7%;
+  margin: 5% 7% 7%;
 }
 @media (max-width:630px) {
 
